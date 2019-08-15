@@ -1,0 +1,18 @@
+logging:
+  level:
+    pl:
+      marekk:
+        ses: debug
+
+cloud:
+  aws:
+    credentials:
+      accessKey: {accessKey}
+      secretKey: {secretKey}
+    region:
+      static: "us-east-1"
+      auto: false
+    stack:
+      auto: false
+email:
+  fromEmail: "marek.kapowicki.gmail.com"

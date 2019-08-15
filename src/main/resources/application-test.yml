@@ -1,0 +1,16 @@
+logging:
+  level:
+    pl:
+      marekk:
+        sns: debug
+spring:
+  autoconfigure:
+    exclude:
+      - org.springframework.cloud.aws.autoconfigure.messaging.MessagingAutoConfiguration
+      - org.springframework.cloud.aws.autoconfigure.context.ContextStackAutoConfiguration
+      - org.springframework.cloud.aws.autoconfigure.context.ContextRegionProviderAutoConfiguration
+
+email:
+  fromEmail: "email@example.com"
+
+
